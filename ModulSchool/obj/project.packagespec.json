@@ -1,0 +1,82 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\rockn\\RiderProjects\\ModulSchool\\ModulSchool\\ModulSchool.csproj",
+    "projectName": "ModulSchool",
+    "projectPath": "C:\\Users\\rockn\\RiderProjects\\ModulSchool\\ModulSchool\\ModulSchool.csproj",
+    "outputPath": "C:\\Users\\rockn\\RiderProjects\\ModulSchool\\ModulSchool\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Dapper": {
+          "target": "Package",
+          "version": "[1.60.6, )"
+        },
+        "MassTransit": {
+          "target": "Package",
+          "version": "[5.5.0-develop.2000, )"
+        },
+        "MassTransit.AspNetCore": {
+          "target": "Package",
+          "version": "[5.5.0-develop.2000, )"
+        },
+        "MassTransit.RabbitMQ": {
+          "target": "Package",
+          "version": "[5.5.0-develop.2000, )"
+        },
+        "MassTransit.Redis": {
+          "target": "Package",
+          "version": "[5.5.0-develop.2000, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Npgsql": {
+          "target": "Package",
+          "version": "[4.0.6, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
